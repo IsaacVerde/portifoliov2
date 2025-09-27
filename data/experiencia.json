@@ -1,0 +1,23 @@
+[
+    {
+        "tipo": "Educação",
+        "titulo": "Análise e Desenvolvimento de Sistemas",
+        "instituicao": "Nome da sua Faculdade/Universidade",
+        "periodo": "2024 - Cursando",
+        "descricao": "Curso superior focado na criação de software, abrangendo desde a lógica de programação e engenharia de software até o desenvolvimento de sistemas web e mobile."
+    },
+    {
+        "tipo": "Bootcamp",
+        "titulo": "The Complete Web Development Bootcamp",
+        "instituicao": "Dr. Angela Yu (Udemy)",
+        "periodo": "2025 - Cursando ",
+        "descricao": "Bootcamp intensivo cobrindo todo o espectro do desenvolvimento Full Stack, incluindo HTML, CSS, JavaScript, Node.js, Express, React, bancos de dados e mais."
+    },
+    {
+        "tipo": "Curso",
+        "titulo": "Curso de Algoritimos e logica de programação",
+        "instituicao": "Nelio Alves (udemy)",
+        "periodo": "2024",
+        "descricao": "Formação sólida em lógica de programação e desenvolvimento de algoritmos, com foco nas linguagens Java, Python e C/C++. Aprendizado prático por meio de exercícios e projetos, voltado para construção de raciocínio lógico e resolução de problemas computacionais. Ministrado pelo professor Nelio Alves, referência em ensino de programação no Brasil."
+    }
+]

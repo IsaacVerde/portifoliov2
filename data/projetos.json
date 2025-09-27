@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "nome": "APP de Previsão do Tempo",
+         "categorias": ["iniciante", "web"], 
+        "descricao": "Uma aplicação que consome uma API de clima para mostrar a previsão em tempo real.",
+        "tecnologias": ["HTML", "CSS", "JavaScript", "API"],
+        "link_github": "https://github.com/IsaacVerde/previsao-tempo",
+        "link_deploy": "https://isaacverde.github.io/previsao-tempo/",
+        "imagemUrl": "https://res.cloudinary.com/db0ztiffv/image/upload/v1758814851/Captura_de_tela_2025-03-07_001647_czruzu.png"
+    },
+    {
+        "id": 2,
+        "nome": "Gerador de Senhas",
+         "categorias": ["iniciante", "web"], 
+        "descricao": "Ferramenta simples para gerar senhas seguras com opções customizáveis.",
+        "tecnologias": ["HTML", "CSS", "JavaScript"],
+        "link_github": "https://github.com/IsaacVerde/gerador-de-senha",
+        "link_deploy": "https://isaacverde.github.io/gerador-de-senha/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1758814836/Captura_de_tela_2025-03-21_041210_w0bgts.png"
+    },
+    {
+        "id": 3,
+        "nome": "Site Aritimetico",
+         "categorias": ["iniciante", "web"], 
+        "descricao": "Um projeto com varias calculadoras que nao encontramos por ai no dia a dia.",
+        "tecnologias": ["HTML", "JS","CSS"],
+        "link_github": "https://github.com/IsaacVerde/calculadoras",
+        "link_deploy": "https://isaacverde.github.io/calculadoras/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1758814802/capa_site_ugdlgq.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Eu nao! Voce sim!",
+         "categorias": ["iniciante", "web"], 
+        "descricao": "Um projeto focado em resolver de maneira simples a confusao entre quem vai fazer qual tarefa de forma aleatoria..",
+        "tecnologias": ["HTML", "JS","CSS"],
+        "link_github": "https://github.com/IsaacVerde/resolvedor-de-tretas",
+        "link_deploy": "https://isaacverde.github.io/resolvedor-de-tretas/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1758814808/capa_mww4zk.jpg"
+    },
+    {
+        "id": 5,
+        "nome": "Modelo de email 'Free Download' ",
+         "categorias": ["email"], 
+        "descricao": "Este projeto consiste em um template de e-mail marketing em HTML, desenvolvido para uma campanha real na plataforma Brevo. O objetivo principal é a captação e nutrição de leads (artistas e produtores do cenário do rap), condicionado a termos de uso específicos.Tecnicamente, o layout foi construído do zero utilizando uma estrutura de <table> com CSS 100% inline, garantindo máxima compatibilidade entre os mais variados clientes de e-mail. O design aposta em uma estética profissional com predominância do branco, contrastando com GIFs animados que criam uma conexão autêntica com o universo da música de rua.",
+        "tecnologias": ["HTML"],
+        "link_github": "https://github.com/IsaacVerde/email-semanal-sete",
+        "link_deploy": "https://isaacverde.github.io/email-semanal-sete/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1758814893/capaporit_b3srfx.png"
+    },
+    {
+        "id": 6,
+        "nome": "Modelo de email 'Autenticidade e estrategia' ",
+         "categorias": ["email"], 
+        "descricao": "Este é um email que eu preparei com algumas informaçoes para meu publico artista e mc, explicando por que ser autentico e exclusivo hoje em dia, é necessario, não apenas uma opção. Eu segui as boas praticas para criar esse email deixando um codigo limpo, otimizado e compativel com os lançadores de email.",
+        "tecnologias": ["HTML"],
+        "link_github": "https://github.com/IsaacVerde/email-semanal-quatro",
+        "link_deploy": "https://isaacverde.github.io/email-semanal-quatro/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1758815004/capa_email_atlz_zyuzym.png"
+    },
+    {
+        "id": 7,
+        "nome": "Site Que Gera Receitas Aleatorias",
+         "categorias": ["iniciante", "web"], 
+        "descricao": "Este é um projeto que fiz para consolidar um pouco sobre o inicio da minha jornada com APIs, este é um desafio que nos permite praticar as praticas basicas de backend como pacote npm, noodemon, axio e express, o front end foi construido com a tecnologia EJS que ela tambem aborda no curso, e ficou bem bacana.",
+        "tecnologias": ["Node.js","Express.js", "EJS", "API", "AXIOS", "Nodemon" ],
+        "link_github": "https://github.com/IsaacVerde/gerador-de-receitas",
+        "link_deploy": "https://gerador-de-receitas-nine.vercel.app/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1758819997/gerador_de_receitas_tgqvwx.png"
+    },
+    {
+        "id": 8,
+        "nome": "Modelo de email 'Live Semanais'",
+         "categorias": ["email"], 
+        "descricao": "Este é um template para e-mail marketing que eu fiz, pensando em entregar alguns conteudos para pessoas especificas da minha lista de email, pessoas que ja produzem. Segui as boas praticas com um codigo limpo para maior compatibilidade e Aceitação nos lançadores de e-mail.",
+        "tecnologias": ["HTML" ],
+        "link_github": "https://github.com/IsaacVerde/email-semanal-tres",
+        "link_deploy": "https://isaacverde.github.io/email-semanal-tres/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1758814912/Sem_t%C3%ADtulo_vrvvkd.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Planejador de Treino",
+         "categorias": ["intermediario" ,"web"], 
+        "descricao": "Este projeto eu fiz para ir um pouco mais a fundo sobre como funcionam as APIs. Neste projeto eu quis explorar a possibilidade de trazer varios dados diferentes, com isso os exercicios e os videos. Este projeto tem um front end interativo e um backend um tanto robusto, o 'Pramise.all' foi usado para que pudessemos executar varias chamadas de APIs de forma eficiente.",
+        "tecnologias": ["Node.js", "Express.js", "EJS", "HTML5", "CSS3" ,"Axios" ," API-Ninjas Exercises", "Youtube Data API","Git","GitHub","Vercel(Deploy)","Nodemon" ],
+        "link_github": "https://github.com/IsaacVerde/planejador-de-treino",
+        "link_deploy": "https://planejador-de-treino.vercel.app/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1758911351/5af9b49d-f4c9-4cde-8a50-5239c1c03559.png"
+    },
+    {
+        "id": 10,
+        "nome": "Creator's Deck",
+         "categorias": ["Avançado" ,"web", "intermediario"], 
+        "descricao": "Este projeto eu fiz para me aprofundar mais em questão de APIs, o projeto é bem simples e tem o objetivo de ajudar gerenciar uma rotina lotada. O maior desafio deste projeto foi integrar todas as operaçoes CRUD com a API da trello, para criar criar, ler ,atualizar e deletar.",
+        "tecnologias": ["Node.js", "Express.js", "EJS", "HTML5", "CSS3" ,"Axios" ," API-Trello", "DotEnv","Git","GitHub","Vercel(Deploy)","Nodemon", "JS(ES6+)","SortableJS","" ],
+        "link_github": "https://github.com/IsaacVerde/creators-deck",
+        "link_deploy": "https://creators-deck.vercel.app/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1759005099/8026f628-33bc-4625-81cc-f42028618376.png"
+    }
+
+]

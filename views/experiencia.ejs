@@ -1,0 +1,45 @@
+<%- include('partials/header') %>
+
+<div class="pt-28 pb-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-slate-300">
+
+        <div class="text-center mb-20">
+            <h1 class="font-poppins font-extrabold text-4xl md:text-5xl text-white">
+                Minha <span class="text-cyan-400">Jornada</span>
+            </h1>
+            <p class="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">
+                Minha trajetória de aprendizado e desenvolvimento no mundo da tecnologia.
+            </p>
+        </div>
+
+        <div class="relative">
+            <div class="absolute left-1/2 w-0.5 h-full bg-slate-700 -translate-x-1/2"></div>
+
+            <% experiencias.forEach((exp, index) => { %>
+                <div class="relative mb-12">
+                    <div class="flex items-center">
+                        
+                        <div class="w-1/2 pr-8 text-right">
+                            <p class="font-poppins font-bold text-lg text-cyan-400"><%= exp.periodo %></p>
+                        </div>
+                        
+                        <div class="absolute left-1/2 w-4 h-4 bg-cyan-500 rounded-full -translate-x-1/2 border-4 border-slate-900"></div>
+                        
+                        <div class="w-1/2 pl-8">
+                            <div class="bg-slate-800 p-6 rounded-lg shadow-lg">
+                                <span class="text-xs font-medium bg-slate-700 text-cyan-300 px-3 py-1 rounded-full mb-2 inline-block"><%= exp.tipo %></span>
+                                <h3 class="font-poppins font-bold text-xl text-white mt-1"><%= exp.titulo %></h3>
+                                <p class="text-slate-400 text-sm font-semibold mb-3"><%= exp.instituicao %></p>
+                                <p class="text-slate-400 text-sm leading-relaxed"><%= exp.descricao %></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+
+    </div>
+</div>
+
+<%- include('partials/footer') %>

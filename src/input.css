@@ -1,0 +1,29 @@
+/* src/input.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Nunito Sans', sans-serif; /* Fonte padrão para parágrafos */
+}
+
+/* Classe customizada para títulos */
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Adicione esta seção @layer no final do arquivo */
+@layer components {
+    .filtro-btn {
+        @apply bg-slate-800 text-slate-300 font-medium py-2 px-5 rounded-lg hover:bg-slate-700 transition-colors duration-300 cursor-pointer;
+    }
+    /* Estilo do botão quando ele está ATIVO */
+    .filtro-btn.active {
+        @apply bg-cyan-500 text-slate-900 font-bold;
+    }
+}
+
+/* Adiciona uma transição suave para os cards aparecerem/sumirem */
+.projeto-card {
+    transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,92 @@
+<%- include('partials/header') %>
+
+    <div class="pt-28 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center mb-16">
+                <h1 class="font-poppins font-extrabold text-4xl md:text-5xl text-white">
+                    Meus <span class="text-cyan-400">Projetos</span>
+                </h1>
+                <p class="mt-4 text-lg text-slate-400 max-w-2xl mx-auto">
+                    Uma coleção de projetos pessoais e de estudo onde aplico e aprimoro minhas habilidades como
+                    desenvolvedor.
+                </p>
+            </div>
+
+            <div id="filtros" class="flex flex-wrap justify-center gap-4 mb-12">
+                <button data-filter="all" class="filtro-btn">Todos</button>
+                <button data-filter="iniciante" class="filtro-btn">Iniciante</button>
+                <button data-filter="intermediario" class="filtro-btn">Intermediário</button>
+                <button data-filter="avancado" class="filtro-btn">Avançado</button>
+                <button data-filter="email" class="filtro-btn">Emails</button>
+                <button data-filter="web" class="filtro-btn">Projetos Web</button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <% projetos.forEach(projeto => { %>
+                    
+                    <div class="projeto-card bg-slate-800 rounded-lg shadow-2xl flex flex-col justify-between transform hover:scale-105 hover:shadow-cyan-500/10 transition-all duration-300 overflow-hidden" 
+                         data-categorias="<%= projeto.categorias.join(' ') %>">
+
+                        <% if (projeto.imagemUrl) { %>
+                            <img class="w-full h-48 object-cover" src="<%= projeto.imagemUrl %>"
+                                alt="Imagem do projeto <%= projeto.nome %>">
+                        <% } %>
+
+                        <div class="p-6 flex-grow">
+                            <h3 class="font-poppins font-bold text-xl text-white mb-2">
+                                <%= projeto.nome %>
+                            </h3>
+                            <p class="text-slate-400 text-sm leading-relaxed min-h-[6rem]">
+                                <%= projeto.descricao %>
+                            </p>
+                        </div>
+
+                        <div class="p-6 pt-0">
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <% projeto.tecnologias.forEach(tech => { %>
+                                    <span
+                                        class="text-xs font-medium bg-slate-700 text-cyan-300 px-3 py-1 rounded-full">
+                                        <%= tech %>
+                                    </span>
+                                <% }); %>
+                            </div>
+
+                            <div class="flex items-center justify-end gap-4 mt-6">
+                                <% if (projeto.link_github) { %>
+                                    <a href="<%= projeto.link_github %>" target="_blank"
+                                        class="text-slate-400 hover:text-cyan-400 transition-colors"
+                                        title="Ver código no GitHub">
+                                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                            aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.492.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.942.359.308.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </a>
+                                <% } %>
+                                <% if (projeto.link_deploy) { %>
+                                    <a href="<%= projeto.link_deploy %>" target="_blank"
+                                        class="text-slate-400 hover:text-cyan-400 transition-colors"
+                                        title="Ver projeto online">
+                                        <svg class="w-6 h-6" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                <% } %>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+
+            </div>
+
+        </div>
+    </div>
+
+<%- include('partials/footer') %>
