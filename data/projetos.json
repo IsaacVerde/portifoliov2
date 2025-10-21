@@ -98,6 +98,16 @@
         "link_github": "https://github.com/IsaacVerde/creators-deck",
         "link_deploy": "https://creators-deck.vercel.app/",
         "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1759005099/8026f628-33bc-4625-81cc-f42028618376.png"
+    },
+     {
+        "id": 11,
+        "nome": "Minha Lista",
+         "categorias": ["Avançado" ,"web", "intermediario"], 
+        "descricao": "Este projeto tentei me apronfundar mais em banco de dados e fiz um site onde é possivel gerenciar os itens que voce precisa comprar no mercado e os que voce ja comprou. O banco de dados a principio eu comecei com SQLite usando a persistencia de dados, mas na hora de fazer o deploy pela vercel descobri que nao funcionaria e que teria que trocar o jeito que o banco de dados estava sendo tratado, criei um data base pela vercel installando o pg supabase, simulando um ambiente de produção real, usei ejs e css com as boas praticas",
+        "tecnologias": ["Node.js", "Express.js", "EJS", "HTML5", "CSS3","Git","GitHub","Vercel(Deploy)","Nodemon", "JS(ES6+)" ],
+        "link_github": "https://github.com/IsaacVerde/lista-de-compras",
+        "link_deploy": "https://lista-de-compras-ten-olive.vercel.app/",
+        "imagemUrl":"https://res.cloudinary.com/db0ztiffv/image/upload/v1761075092/9CBE0AA0-388A-450E-AC7B-280CC51457BA_dmkcfj.png"
     }
 
 ]
